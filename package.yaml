@@ -1,10 +1,10 @@
-name:                CaelumLang
+name:                Caelum-Lang
 version:             0.1.0.0
-github:              "githubuser/CaelumLang"
+github:              "SepehrAkbari/Caelum-Lang"
 license:             BSD-3-Clause
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2025 Author name here"
+author:              "Sepehr Akbari"
+maintainer:          "isepehrakbari@gmail.com"
+copyright:           "2025 Sepehr Akbari"
 
 extra-source-files:
 - README.md
@@ -17,7 +17,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/githubuser/CaelumLang#readme>
+description:         Please see the README on GitHub at <https://github.com/SepehrAkbari/Caelum-Lang/blob/main/README.md>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -38,7 +38,7 @@ library:
   source-dirs: src
 
 executables:
-  CaelumLang-exe:
+  Caelum-Lang-exe:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -46,10 +46,10 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - CaelumLang
+    - Caelum-Lang
 
 tests:
-  CaelumLang-test:
+  Caelum-Lang-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
@@ -57,4 +57,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - CaelumLang
+    - Caelum-Lang

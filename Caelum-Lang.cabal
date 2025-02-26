@@ -4,14 +4,14 @@ cabal-version: 2.2
 --
 -- see: https://github.com/sol/hpack
 
-name:           CaelumLang
+name:           Caelum-Lang
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/CaelumLang#readme>
-homepage:       https://github.com/githubuser/CaelumLang#readme
-bug-reports:    https://github.com/githubuser/CaelumLang/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2025 Author name here
+description:    Please see the README on GitHub at <https://github.com/SepehrAkbari/Caelum-Lang/blob/main/README.md>
+homepage:       https://github.com/SepehrAkbari/Caelum-Lang#readme
+bug-reports:    https://github.com/SepehrAkbari/Caelum-Lang/issues
+author:         Sepehr Akbari
+maintainer:     isepehrakbari@gmail.com
+copyright:      2025 Sepehr Akbari
 license:        BSD-3-Clause
 license-file:   LICENSE
 build-type:     Simple
@@ -21,7 +21,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/CaelumLang
+  location: https://github.com/SepehrAkbari/Caelum-Lang
 
 library
   exposed-modules:
@@ -30,9 +30,9 @@ library
       Lib
       Parser
   other-modules:
-      Paths_CaelumLang
+      Paths_Caelum_Lang
   autogen-modules:
-      Paths_CaelumLang
+      Paths_Caelum_Lang
   hs-source-dirs:
       src
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
@@ -41,33 +41,33 @@ library
     , parsec
   default-language: Haskell2010
 
-executable CaelumLang-exe
+executable Caelum-Lang-exe
   main-is: Main.hs
   other-modules:
-      Paths_CaelumLang
+      Paths_Caelum_Lang
   autogen-modules:
-      Paths_CaelumLang
+      Paths_Caelum_Lang
   hs-source-dirs:
       app
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      CaelumLang
+      Caelum-Lang
     , base >=4.7 && <5
     , parsec
   default-language: Haskell2010
 
-test-suite CaelumLang-test
+test-suite Caelum-Lang-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Paths_CaelumLang
+      Paths_Caelum_Lang
   autogen-modules:
-      Paths_CaelumLang
+      Paths_Caelum_Lang
   hs-source-dirs:
       test
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      CaelumLang
+      Caelum-Lang
     , base >=4.7 && <5
     , parsec
   default-language: Haskell2010

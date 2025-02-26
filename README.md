@@ -1,4 +1,4 @@
-## Caelum
+## Caelum Lang
 
 My journey of learning compiler design, functional programming, and Haskell through making my own programming language :)
 
